@@ -1,0 +1,29 @@
+# Build output
+**/bin/
+**/obj/
+**/build_out/
+**/artifacts/
+**/.build/
+
+# IDE / editor files
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.user
+*.suo
+*.rsuser
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# Local secrets / overrides
+**/appsettings.*.local.json
+**/secrets.json
+*.pfx
+*.pem
+*.snk
